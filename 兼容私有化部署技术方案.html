@@ -49,9 +49,9 @@
     <div id="base" class="">
 
       <!-- Unnamed (矩形) -->
-      <div id="u20029" class="ax_default label">
-        <div id="u20029_div" class=""></div>
-        <div id="u20029_text" class="text ">
+      <div id="u20067" class="ax_default label">
+        <div id="u20067_div" class=""></div>
+        <div id="u20067_text" class="text ">
           <p><span>私有化部署技术方案</span></p><p><span>采用minio+&lt;video&gt;（或者ckplayer）的方式来实现</span></p><p><span><br></span></p><p><span>作为开源的对象存储系统，minio作为代替阿里云oss的存在，如果采用私有化部署的方式，可以使用minio代替阿里云oss</span></p><p><span>使用到场景主要分为两类，第一类是院内培训场景，并发量较小；第二类是科普宣教，科普宣教视频本身比较短，文件较小。</span></p><p><span><br></span></p><p><span>1、采用备份技术，我们在创建文章上传视频、音频时，将视频同时上传至阿里云oss和minio，实现双通道。</span></p><p><span><br></span></p><p><span>2、saas环境主要使用阿里云oss，再单独部署一套前端，采用minio方案，视频读取minio url</span></p><p><span><br></span></p><p><span>3、saas环境机构端使用阿里云oss，若需要独立部署，将其切换至minio，同时实现文章的快速授权。</span></p><p><span><br></span></p><p><span>4、后台上传文件的接口直接调用minio，前端考虑使用&lt;video&gt;标签播放nimio存储的mp4格式视频（若技术可以实现，使用ckplayer进行播放）。</span></p><p><span><br></span></p><p><span>5、后期技术方案成熟，将此方案推广至培训系统（医视在线、能力提升）私有化部署使用，学员端播放控制需要使用ckplayer实现。</span></p><p><span><br></span></p><p><span>6、考虑到minio方案不支持高并发的问题，有几种解决方案<br>1）minio接入CDN（阿里云oss采用的方案）<br>2）minio进行分布式部署<br>3）需要重新开发自有的流媒体服务器（开发工作量较大）</span></p>
         </div>
       </div>
