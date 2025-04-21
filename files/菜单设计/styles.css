@@ -2663,3 +2663,42 @@
   word-wrap:break-word;
   text-transform:none;
 }
+#u11490_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:261px;
+  height:53px;
+  background:inherit;
+  background-color:rgba(247, 244, 6, 1);
+  box-sizing:border-box;
+  border-width:1px;
+  border-style:solid;
+  border-color:rgba(121, 121, 121, 1);
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+}
+#u11490 {
+  border-width:0px;
+  position:absolute;
+  left:758px;
+  top:98px;
+  width:261px;
+  height:53px;
+  display:flex;
+}
+#u11490 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u11490_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+}
