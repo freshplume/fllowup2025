@@ -16,7 +16,7 @@
   position:absolute;
   z-index:0;
 }
-#u19892_img {
+#u19891_img {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -24,7 +24,7 @@
   width:1219px;
   height:746px;
 }
-#u19892 {
+#u19891 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -32,6 +32,45 @@
   width:1219px;
   height:746px;
   display:flex;
+}
+#u19891 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u19891_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+  visibility:hidden;
+}
+#u19892_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:357px;
+  height:596px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 1);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  color:#FFFFFF;
+}
+#u19892 {
+  border-width:0px;
+  position:absolute;
+  left:859px;
+  top:148px;
+  width:357px;
+  height:596px;
+  display:flex;
+  color:#FFFFFF;
 }
 #u19892 .text {
   position:absolute;
@@ -51,39 +90,36 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:357px;
-  height:596px;
+  width:56px;
+  height:16px;
   background:inherit;
-  background-color:rgba(255, 255, 255, 1);
+  background-color:rgba(255, 255, 255, 0);
   border:none;
   border-radius:0px;
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  color:#FFFFFF;
 }
 #u19893 {
   border-width:0px;
   position:absolute;
-  left:859px;
-  top:148px;
-  width:357px;
-  height:596px;
+  left:888px;
+  top:121px;
+  width:56px;
+  height:16px;
   display:flex;
-  color:#FFFFFF;
 }
 #u19893 .text {
   position:absolute;
-  align-self:center;
-  padding:2px 2px 2px 2px;
+  align-self:flex-start;
+  padding:0px 0px 0px 0px;
   box-sizing:border-box;
   width:100%;
 }
 #u19893_text {
   border-width:0px;
-  word-wrap:break-word;
+  white-space:nowrap;
   text-transform:none;
-  visibility:hidden;
 }
 #u19894_div {
   border-width:0px;
@@ -103,7 +139,7 @@
 #u19894 {
   border-width:0px;
   position:absolute;
-  left:888px;
+  left:968px;
   top:121px;
   width:56px;
   height:16px;
@@ -139,7 +175,7 @@
 #u19895 {
   border-width:0px;
   position:absolute;
-  left:968px;
+  left:1057px;
   top:121px;
   width:56px;
   height:16px;
@@ -175,7 +211,7 @@
 #u19896 {
   border-width:0px;
   position:absolute;
-  left:1057px;
+  left:1146px;
   top:121px;
   width:56px;
   height:16px;
@@ -198,42 +234,6 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:56px;
-  height:16px;
-  background:inherit;
-  background-color:rgba(255, 255, 255, 0);
-  border:none;
-  border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-}
-#u19897 {
-  border-width:0px;
-  position:absolute;
-  left:1146px;
-  top:121px;
-  width:56px;
-  height:16px;
-  display:flex;
-}
-#u19897 .text {
-  position:absolute;
-  align-self:flex-start;
-  padding:0px 0px 0px 0px;
-  box-sizing:border-box;
-  width:100%;
-}
-#u19897_text {
-  border-width:0px;
-  white-space:nowrap;
-  text-transform:none;
-}
-#u19898_div {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
   width:331px;
   height:171px;
   background:inherit;
@@ -247,7 +247,7 @@
   -webkit-box-shadow:none;
   box-shadow:none;
 }
-#u19898 {
+#u19897 {
   border-width:0px;
   position:absolute;
   left:872px;
@@ -256,20 +256,20 @@
   height:171px;
   display:flex;
 }
-#u19898 .text {
+#u19897 .text {
   position:absolute;
   align-self:center;
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
 }
-#u19898_text {
+#u19897_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
 }
-#u19899_div {
+#u19898_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -296,12 +296,67 @@
   text-align:left;
   line-height:53px;
 }
-#u19899 {
+#u19898 {
   border-width:0px;
   position:absolute;
   left:872px;
   top:220px;
   width:90px;
+  height:54px;
+  display:flex;
+  font-family:'Microsoft Tai Le Bold', 'Microsoft Tai Le Regular', 'Microsoft Tai Le', sans-serif;
+  font-weight:700;
+  font-style:normal;
+  font-size:14px;
+  color:rgba(0, 0, 0, 0.847058823529412);
+  text-align:left;
+  line-height:53px;
+}
+#u19898 .text {
+  position:absolute;
+  align-self:center;
+  padding:0px 16px 0px 16px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u19898_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+}
+#u19899_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:116px;
+  height:54px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-left:0px;
+  border-top:0px;
+  border-right:0px;
+  border-radius:4px;
+  border-bottom-right-radius:0px;
+  border-bottom-left-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:'Microsoft Tai Le Bold', 'Microsoft Tai Le Regular', 'Microsoft Tai Le', sans-serif;
+  font-weight:700;
+  font-style:normal;
+  font-size:14px;
+  color:rgba(0, 0, 0, 0.847058823529412);
+  text-align:left;
+  line-height:53px;
+}
+#u19899 {
+  border-width:0px;
+  position:absolute;
+  left:872px;
+  top:166px;
+  width:116px;
   height:54px;
   display:flex;
   font-family:'Microsoft Tai Le Bold', 'Microsoft Tai Le Regular', 'Microsoft Tai Le', sans-serif;
@@ -329,7 +384,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:116px;
+  width:90px;
   height:54px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -354,9 +409,9 @@
 #u19900 {
   border-width:0px;
   position:absolute;
-  left:872px;
-  top:166px;
-  width:116px;
+  left:1057px;
+  top:274px;
+  width:90px;
   height:54px;
   display:flex;
   font-family:'Microsoft Tai Le Bold', 'Microsoft Tai Le Regular', 'Microsoft Tai Le', sans-serif;
@@ -410,7 +465,7 @@
   border-width:0px;
   position:absolute;
   left:1057px;
-  top:274px;
+  top:220px;
   width:90px;
   height:54px;
   display:flex;
@@ -464,8 +519,8 @@
 #u19902 {
   border-width:0px;
   position:absolute;
-  left:1057px;
-  top:220px;
+  left:872px;
+  top:274px;
   width:90px;
   height:54px;
   display:flex;
@@ -485,61 +540,6 @@
   width:100%;
 }
 #u19902_text {
-  border-width:0px;
-  word-wrap:break-word;
-  text-transform:none;
-}
-#u19903_div {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:90px;
-  height:54px;
-  background:inherit;
-  background-color:rgba(255, 255, 255, 0);
-  border:none;
-  border-left:0px;
-  border-top:0px;
-  border-right:0px;
-  border-radius:4px;
-  border-bottom-right-radius:0px;
-  border-bottom-left-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-  font-family:'Microsoft Tai Le Bold', 'Microsoft Tai Le Regular', 'Microsoft Tai Le', sans-serif;
-  font-weight:700;
-  font-style:normal;
-  font-size:14px;
-  color:rgba(0, 0, 0, 0.847058823529412);
-  text-align:left;
-  line-height:53px;
-}
-#u19903 {
-  border-width:0px;
-  position:absolute;
-  left:872px;
-  top:274px;
-  width:90px;
-  height:54px;
-  display:flex;
-  font-family:'Microsoft Tai Le Bold', 'Microsoft Tai Le Regular', 'Microsoft Tai Le', sans-serif;
-  font-weight:700;
-  font-style:normal;
-  font-size:14px;
-  color:rgba(0, 0, 0, 0.847058823529412);
-  text-align:left;
-  line-height:53px;
-}
-#u19903 .text {
-  position:absolute;
-  align-self:center;
-  padding:0px 16px 0px 16px;
-  box-sizing:border-box;
-  width:100%;
-}
-#u19903_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
